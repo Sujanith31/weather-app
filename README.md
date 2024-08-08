@@ -76,8 +76,4 @@ The background color and weather icons dynamically change based on the current w
 
 ## Conclusion
 
-<<<<<<< HEAD
 The WeatherApp component is a well-structured and user-friendly component for fetching and displaying weather data. It handles user input, data fetching, loading states, and errors gracefully, providing a seamless and visually appealing experience for users looking to get weather information for their desired location.
-=======
-The WeatherApp component is a well-structured and user-friendly component for fetching and displaying weather data. It handles user input, data fetching, loading states, and errors gracefully, providing a seamless and visually appealing experience for users looking to get weather information for their desired location.
->>>>>>> aed28890536092138171d58c9a2eca0219ac3e2e
