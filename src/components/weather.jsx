@@ -195,11 +195,11 @@ const WeatherApp = () => {
             <div className="mb-4 flex flex-col justify-center items-center">
               <img src={weatherIcon} alt="Weather Icon" className="mx-auto w-16 h-16" />
               <div className="flex flex-row my-7 justify-around items-baseline w-3/4">
-                <p className="text-2xl xs:text-4xl font-sans text-white font-semibold">{weatherData.current.temperature_2m.toFixed()}°c</p>
-                <p className="flex flex-row items-baseline justify-between text-2xl xs:text-4xl font-sans text-white font-semibold">
+                <p className="text-2xl xs:text-4xl font-sans text-shadow text-white font-semibold">{weatherData.current.temperature_2m.toFixed()}°c</p>
+                <p className="flex flex-row items-baseline justify-between text-shadow text-2xl xs:text-4xl font-sans text-white font-semibold">
                   <img src={humidity} className="w-6 xs:w-10 xs:h-10 h-6" alt="" /> {weatherData.current.relative_humidity_2m}%
                 </p>
-                <p className="text-2xl xs:text-4xl text-white font-sans font-semibold">
+                <p className="text-2xl text-shadow xs:text-4xl text-white font-sans font-semibold">
                   {weatherData.current.wind_speed_10m}
                   <span className="text-lg xs:text-2xl">km/h</span>
                 </p>
